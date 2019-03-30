@@ -1,0 +1,1 @@
+To run part3.py, set #6 to the path of test images on your machine.

@@ -1,0 +1,1 @@
+To run part1.py, set #5 to the path of test images on your machine.
