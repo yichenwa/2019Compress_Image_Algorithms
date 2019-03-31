@@ -68,7 +68,7 @@ imglist = a list of list([x1,x2,y1,y2])
 errlist = a list of error, same order with imglist. save time in caluclate error
 '''
 def quadTree(x1,x2,y1,y2,imglist,errlist,meanlist):
-    if (x2-x1)>2:#subimage size
+    if (x2-x1)>1:#subimage size
         new4 = split(x1,x2,y1,y2)# new4 means new 4 subimages, it is a list of list
         for xyimg in new4:#xyimg is a list [x1,x2,y1,y2]
             imglist.append(xyimg)
